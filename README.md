@@ -6,7 +6,7 @@ This script is designed to install and configure Sparta student and trainer macO
 
 1. Initial macOS Setup Wizard (Laptop name, WiFi etc). Admin staff will provide the username and password to use when configuring this part.
 2. Run `xcode-select --install` to isnall the Command Line tools
-2. Run install script: `cd ~; bash <(curl -s https://raw.githubusercontent.com/spartaglobal/laptop/master/mac)` 
+2. Run install script: `cd ~; bash <(curl -s https://raw.githubusercontent.com/spartaglobal/laptop/master/mac)`
 3. Type the admin password.
 4. Wait **Ages**!
 5. Install XCode (via App Store)
@@ -53,6 +53,7 @@ The script is fairly complex, and configures student laptops for our training co
     - Atom
     - GitHub Desktop
     - Slack
+    - Steam
 * Configures rbenv to `install` `bundler`, `brice`, `gist`, `pry`, `pry-doc`, `awesome_print`, `specific_install` with every new ruby installation.
 * Installs the latest ruby version available from rbenv, and sets it globally.
 * Updates all system gems and configures bundler to use parallel installation.
@@ -94,5 +95,3 @@ Bits of this script were borrowed from all over the internet, but in particular:
 * https://github.com/thoughtbot/laptop/
 
 Initially built by [@dannysmith](http://github.com/dannysmith).
-
-
